@@ -1,1 +1,1 @@
-# IDOR
+# Insecure direct object reference
