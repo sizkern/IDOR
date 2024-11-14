@@ -9,11 +9,11 @@ fn main() {
             Ok(response) => {
                 if let Ok(text) = response.text() {
                     if text.contains("lyzae") {
-                        println!("{}", url);
+                        println!("Found: {}", url);
                     }
                 }
             },
-            Err(e) => println!("{}: {}", i, e),
+            Err(e) => println!("Error {}: {}", i, e),
         }
     }
 }
